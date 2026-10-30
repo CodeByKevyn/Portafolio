@@ -1,11 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KP. | Kevyn Alejandro Patiño Duque</title>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    
+
+  <!-- ENCABEZADO / NAVEGACIÓN -->
+  <header class="navbar">
+    <a href="#" class="logo">KP.</a>
+
+    <nav class="nav-menu" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#proyectos">PROYECTOS</a></li>
+        <li><a href="#experiencia">EXPERIENCIA</a></li>
+        <li><a href="#sobre-mi">SOBRE MÍ</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <button type="button" class="btn-bn" id="bnToggle" aria-label="Cambiar modo B/N">
+        <span>◐</span> B/N
+      </button>
+      <a href="#contacto" class="btn-talk">Hablemos ↗</a>
+    </div>
+  </header>
+
+  <!-- SECCIÓN HERO PRINCIPAL -->
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      
+      <!-- Columna Izquierda: Información, Título y Acciones -->
+      <div class="hero-content">
+        <div class="location-badge">
+          <span class="status-dot"></span>
+          <span>JAVA FULL STACK · MEDELLÍN, COLOMBIA</span>
+        </div>
+
+        <h1 id="hero-title" class="hero-heading">
+          ROMPO LÍMITES.<br>
+          <span class="highlight-cyan">CONSTRUYO<br>CÓDIGO.</span>
+        </h1>
+
+        <p class="hero-bio">
+          Hola, soy <strong>Kevyn Alejandro Patiño Duque</strong>, desarrollador Java Full Stack. Llevo la energía, disciplina y creatividad del breaking a soluciones web que tienen ritmo propio.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn-primary">VER MI TRABAJO ↗</a>
+          <a href="CV_Kevyn_Patino.pdf" download class="btn-secondary">DESCARGAR CV ⤓</a>
+        </div>
+
+        <div class="scroll-prompt">
+          <span>SCROLL PARA DESCUBRIR</span>
+          <span class="scroll-line"></span>
+          <span>01 — 05</span>
+        </div>
+      </div>
+
+      <!-- Columna Derecha: Tarjeta Fotográfica con Pines Interactivos -->
+      <div class="hero-visual">
+        
+        <!-- Sticker de código superior -->
+        <div class="code-sticker">
+          <code>while (beat) { code(); }</code>
+        </div>
+
+        <!-- Tarjeta de Imagen -->
+        <figure class="photo-card">
+          <img src="tu-foto.jpg" alt="Fotografía de Kevyn Alejandro Patiño Duque">
+
+          <!-- Marcadores / Pines sobre la foto -->
+          <div class="pin pin-1">
+            <span class="pin-tag">#01 JAVA</span>
+            <span class="pin-line"></span>
+          </div>
+
+          <div class="pin pin-2">
+            <span class="pin-tag">#02 VISIÓN</span>
+            <span class="pin-line"></span>
+          </div>
+
+          <div class="pin pin-3">
+            <span class="pin-tag">#03 SOFTWARE ENGINEER</span>
+            <span class="pin-line"></span>
+          </div>
+
+          <div class="pin pin-4">
+            <span class="pin-tag">#04 DISCIPLINA</span>
+            <span class="pin-line"></span>
+          </div>
+
+          <div class="pin pin-5">
+            <span class="pin-tag">#05 PRODUCTO</span>
+            <span class="pin-line"></span>
+          </div>
+
+          <!-- Credencial inferior en foto -->
+          <figcaption class="photo-tag">
+            CODEBYKEVYN / FULL STACK
+          </figcaption>
+        </figure>
+
+        <!-- Insignia circular -->
+        <div class="badge-break">
+          <strong>BREAK</strong>
+          <span>THE CODE</span>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <script src="main.js"></script>
 </body>
 </html>
